@@ -13,8 +13,7 @@ public class TC_000 extends TestBaseSetup{
 	 WebDriver driver;
 	
 	 private static String PAGE_URL="https://irf.mtc.ca.gov/login";
-	 
-	 
+	 	 
 	 	@BeforeClass
 		public void setUp() {
 			driver=getDriver();
