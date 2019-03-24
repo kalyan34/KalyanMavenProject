@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite1]">
+  <parameter name="appURL" value="https://irf.mtc.ca.gov/login"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="CodingExerciseTests(failed)">
+    <classes>
+      <class name="TestCases.TC_003And004">
+        <methods>
+          <include name="createNewAccountSuccessTest"/>
+          <include name="LoginWithNewAccountSuccessTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- TestCases.TC_003And004 -->
+    </classes>
+  </test> <!-- CodingExerciseTests(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->

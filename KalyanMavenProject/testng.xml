@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite1" verbose="1" parallel="none">
+<parameter name="appURL" value="https://irf.mtc.ca.gov/login"/>
+<parameter name="browserType" value="chrome"/>
+	<test name="CodingExerciseTests">
+		<classes>
+			<class name="TestCases.TC_000" />
+			<class name="TestCases.TC_001" />
+			<class name="TestCases.TC_002" />
+			<class name="TestCases.TC_003And004" />	
+			<class name="TestCases.TC_005" />						
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite1" duration-ms="52608" started-at="2019-03-24T10:28:01Z" finished-at="2019-03-24T10:28:53Z">
+    <groups>
+    </groups>
+    <test name="CodingExerciseTests" duration-ms="52608" started-at="2019-03-24T10:28:01Z" finished-at="2019-03-24T10:28:53Z">
+      <class name="TestCases.TC_001">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC_001@ae45eb6]" name="initializeTestBaseSetup" is-config="true" duration-ms="3337" started-at="2019-03-24T10:28:05Z" finished-at="2019-03-24T10:28:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://irf.mtc.ca.gov/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC_001@ae45eb6]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:09Z" finished-at="2019-03-24T10:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="invalidUserLoginTest()[pri:0, instance:TestCases.TC_001@ae45eb6]" name="invalidUserLoginTest" duration-ms="6829" started-at="2019-03-24T10:28:09Z" finished-at="2019-03-24T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_001@ae45eb6]" name="tearDown" is-config="true" duration-ms="694" started-at="2019-03-24T10:28:16Z" finished-at="2019-03-24T10:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001 -->
+      <class name="TestCases.TC_003And004">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC_003And004@27efef64]" name="initializeTestBaseSetup" is-config="true" duration-ms="3269" started-at="2019-03-24T10:28:27Z" finished-at="2019-03-24T10:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://irf.mtc.ca.gov/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="createNewAccountSuccessTest()[pri:0, instance:TestCases.TC_003And004@27efef64]" name="createNewAccountSuccessTest" duration-ms="6425" started-at="2019-03-24T10:28:30Z" finished-at="2019-03-24T10:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountSuccessTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC_003And004@27efef64]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:30Z" finished-at="2019-03-24T10:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginWithNewAccountSuccessTest()[pri:0, instance:TestCases.TC_003And004@27efef64]" name="LoginWithNewAccountSuccessTest" duration-ms="6153" started-at="2019-03-24T10:28:36Z" depends-on-methods="TestCases.TC_003And004.createNewAccountSuccessTest" finished-at="2019-03-24T10:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNewAccountSuccessTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_003And004@27efef64]" name="tearDown" is-config="true" duration-ms="1145" started-at="2019-03-24T10:28:43Z" finished-at="2019-03-24T10:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003And004 -->
+      <class name="TestCases.TC_002">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC_002@59f99ea]" name="initializeTestBaseSetup" is-config="true" duration-ms="3337" started-at="2019-03-24T10:28:16Z" finished-at="2019-03-24T10:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://irf.mtc.ca.gov/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC_002@59f99ea]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:20Z" finished-at="2019-03-24T10:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewAccountFailTest()[pri:0, instance:TestCases.TC_002@59f99ea]" name="createNewAccountFailTest" duration-ms="6370" started-at="2019-03-24T10:28:20Z" finished-at="2019-03-24T10:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountFailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_002@59f99ea]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-03-24T10:28:26Z" finished-at="2019-03-24T10:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002 -->
+      <class name="TestCases.TC_000">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC_000@68c4039c]" name="initializeTestBaseSetup" is-config="true" duration-ms="3850" started-at="2019-03-24T10:28:01Z" finished-at="2019-03-24T10:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://irf.mtc.ca.gov/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="Verify200ResponseTest()[pri:0, instance:TestCases.TC_000@68c4039c]" name="Verify200ResponseTest" duration-ms="375" started-at="2019-03-24T10:28:04Z" finished-at="2019-03-24T10:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify200ResponseTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC_000@68c4039c]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:04Z" finished-at="2019-03-24T10:28:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_000@68c4039c]" name="tearDown" is-config="true" duration-ms="642" started-at="2019-03-24T10:28:05Z" finished-at="2019-03-24T10:28:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_000 -->
+      <class name="TestCases.TC_005">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC_005@6f7fd0e6]" name="initializeTestBaseSetup" is-config="true" duration-ms="3249" started-at="2019-03-24T10:28:44Z" finished-at="2019-03-24T10:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://irf.mtc.ca.gov/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="VerifyContactUsLink()[pri:0, instance:TestCases.TC_005@6f7fd0e6]" name="VerifyContactUsLink" duration-ms="5527" started-at="2019-03-24T10:28:47Z" finished-at="2019-03-24T10:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactUsLink -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.TC_005@6f7fd0e6]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:47Z" finished-at="2019-03-24T10:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_005@6f7fd0e6]" name="tearDown" is-config="true" duration-ms="703" started-at="2019-03-24T10:28:52Z" finished-at="2019-03-24T10:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestCases.TC_005@6f7fd0e6]" name="close" is-config="true" duration-ms="0" started-at="2019-03-24T10:28:53Z" finished-at="2019-03-24T10:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.TC_005 -->
+    </test> <!-- CodingExerciseTests -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>
